@@ -14,12 +14,12 @@ will not be touched. Whereas:
 
 Install through pip:
 
-    $ pip install MarkdownLinkTaget
+    $ pip install MarkdownLinkTarget
     
-To enable the MarkdownLinkTaget package and use it in your markdown generation just add it like so:
+To enable the MarkdownLinkTarget package and use it in your markdown generation just add it like so:
 
     import markdown
-    from MarkdownLinkTaget.linktarget import TargetLinkExtension
+    from MarkdownLinkTarget.linktarget import TargetLinkExtension
     
     result = markdown.markdown(textToRender, extensions=[TargetLinkExtension,]))
 

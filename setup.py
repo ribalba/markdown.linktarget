@@ -1,9 +1,9 @@
 from distutils.core import setup
 
 setup(
-    name='MarkdownLinkTaget',
+    name='MarkdownLinkTarget',
     version='0.1.0',
-    packages=['MarkdownLinkTaget',],
+    packages=['MarkdownLinkTarget',],
     license='Apache License 2.0',
     long_description=open('README.txt').read(),
     url='https://github.com/ribalba/markdown.linktarget',
